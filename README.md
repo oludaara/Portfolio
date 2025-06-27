@@ -1,55 +1,127 @@
-# 🖥️ Personal Portfolio
+# � Oluwadara Iyin Oluwasegun - Blockchain Developer Portfolio
 
-A sleek, modern, and responsive portfolio bootstrapped with [create-t3-app](https://create.t3.gg/).
+A modern, responsive portfolio website showcasing my expertise in blockchain development, frontend technologies, and Web3 applications. Built with Next.js, TypeScript, and Tailwind CSS.
 
-[Website Preview](https://github.com/wendoj/portfolio/assets/77996774/b73b02d7-0657-41e3-9124-e6d04b17fe93)
+## 🌐 Live Demo
+**[🔗 View Portfolio](https://portfolio-gamma-dun-46.vercel.app/)**
 
-[🔗 Link to portfolio](https://www.wendoj.codes)
+## 👨‍💻 About Me
+I'm Oluwadara Iyin Oluwasegun, a passionate blockchain and frontend developer specializing in:
+- **Blockchain Development**: Building DApps and integrating Web3.js with Ethereum
+- **Frontend Development**: Creating responsive interfaces with React, TypeScript, and Tailwind CSS
+- **Web3 Integration**: Connecting frontend components with blockchain networks
+- **UI/UX Development**: Implementing user-friendly and accessible digital experiences
 
-All you need to know about me, my projects and skills can be found here. Personalize the portfolio by modifying `src/pages/index.tsx` and `src/styles/globals.css` to emulate your own portfolio. Made some improvements and want to share? Open a pull request.
-For any issues, feel free to report them here.
+## � Features
+- **Modern Design**: Sleek, professional design with smooth animations
+- **Responsive Layout**: Optimized for all devices (desktop, tablet, mobile)
+- **Interactive UI**: Smooth scrolling and engaging user interactions
+- **Performance Optimized**: Fast loading times and optimized assets
+- **SEO Friendly**: Comprehensive meta tags and structured data
+- **Accessibility**: WCAG compliant and screen reader friendly
 
-## 🎉 Features
-- **Responsive Design**: The portfolio is designed to be fully responsive, providing an optimal viewing experience across a wide range of devices from desktops to mobile phones.
-- **Easy Customization**: The portfolio structure is straightforward and well organized, making it easy to customize and showcase your unique set of skills and projects.
-- **Stunning UI/UX Design**: The portfolio boasts a sleek and modern design, using smooth animations to capture the attention of potential employers or clients.
-- **Interactive UI**: Utilizing modern web development techniques, the portfolio offers an interactive user interface that enhances user experience, such as `locomotive-scroll` and `framer-motion`.
+## 🛠️ Tech Stack
+- **Framework**: Next.js 14
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS
+- **Animations**: Framer Motion, Locomotive Scroll
+- **3D Graphics**: Spline
+- **UI Components**: Radix UI
+- **Icons**: Lucide React
+- **Deployment**: Vercel
+
+## 📂 Project Structure
+```
+src/
+├── components/          # Reusable UI components
+│   ├── ui/             # Base UI components (buttons, cards, etc.)
+│   ├── Container.tsx   # Layout container
+│   └── Footer.tsx      # Site footer
+├── pages/              # Next.js pages
+│   ├── _app.tsx       # App configuration
+│   └── index.tsx      # Main portfolio page
+├── styles/            # CSS and styling files
+├── lib/               # Utility functions
+└── assets/            # Images, videos, and other assets
+```
 
 ## 🚀 Getting Started
 
 ### Prerequisites
-To get started with this portfolio, ensure that you have the following installed on your system:
-- Node.js
-- npm
-- git
+- Node.js (v18 or higher)
+- npm or pnpm
+- Git
 
-## 🛠️ Installation
-Follow the steps below to clone and run this project on your local system:
-
+### Installation
 ```bash
 # Clone the repository
-$ git clone https://github.com/wendoj/developer-portfolio.git
+git clone https://github.com/oludaara/Portfolio.git
 
 # Navigate to the project directory
-$ cd developer-portfolio
+cd Portfolio
 
-# Remove current origin repository
-$ git remote remove origin
-```
-
-<br />
-
-Then install the required dependencies:
-```bash
 # Install dependencies
-$ npm install
+npm install
+# or
+pnpm install
 
-# Start the development server:
-$ npm run dev
+# Start the development server
+npm run dev
+# or
+pnpm dev
 ```
-Now, open your browser and navigate to `http://localhost:3000` to view your portfolio live.
 
+Open [http://localhost:3000](http://localhost:3000) to view the portfolio locally.
 
-## How do I deploy this?
+## 🎨 Customization
+To customize this portfolio for your own use:
 
-Follow our deployment guides for [Vercel](https://create.t3.gg/en/deployment/vercel), [Netlify](https://create.t3.gg/en/deployment/netlify) and [Docker](https://create.t3.gg/en/deployment/docker) for more information.
+1. **Personal Information**: Update content in `src/pages/index.tsx`
+2. **Projects**: Modify the `projects` array with your own projects
+3. **Services**: Update the `services` array with your skills
+4. **Contact**: Change email addresses and social links
+5. **Styling**: Customize colors and themes in `tailwind.config.ts`
+6. **Assets**: Replace images and videos in `public/assets/`
+
+## 📈 Performance
+- **Core Web Vitals**: Optimized for excellent performance scores
+- **Image Optimization**: Next.js automatic image optimization
+- **Code Splitting**: Automatic code splitting for faster loading
+- **SEO**: Comprehensive meta tags and structured data
+
+## 🌍 Deployment
+This portfolio is deployed on **Vercel** for optimal performance and reliability.
+
+### Deploy Your Own
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/oludaara/Portfolio)
+
+Or follow these steps:
+1. Fork this repository
+2. Connect your GitHub to Vercel
+3. Import your forked repository
+4. Deploy with default settings
+
+## 📧 Contact
+- **Email**: [oludaara@gmail.com](mailto:oludaara@gmail.com)
+- **GitHub**: [@oludaara](https://github.com/oludaara)
+- **Location**: Ilesa, Nigeria
+
+## 🤝 Contributing
+If you find any issues or have suggestions for improvements, feel free to:
+1. Open an issue
+2. Submit a pull request
+3. Share feedback
+
+## 📄 License
+This project is open source and available under the [MIT License](LICENSE.md).
+
+## 🙏 Acknowledgments
+- Built with [Next.js](https://nextjs.org/)
+- UI components from [Radix UI](https://www.radix-ui.com/)
+- Animations powered by [Framer Motion](https://www.framer.com/motion/)
+- 3D graphics by [Spline](https://spline.design/)
+- Deployed on [Vercel](https://vercel.com/)
+
+---
+
+⭐ **If you like this portfolio, please give it a star!** ⭐
